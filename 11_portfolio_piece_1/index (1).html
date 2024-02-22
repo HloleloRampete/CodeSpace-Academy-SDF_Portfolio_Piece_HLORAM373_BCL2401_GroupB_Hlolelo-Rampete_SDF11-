@@ -20,7 +20,7 @@
             <div class="px-4">
                 <img class="h-8" src="https://loopple.s3.eu-west-3.amazonaws.com/images/6wjH3M3DDKVZrZYDViFptLEOoeHnZxEgC3lorweP.png">
             </div>
-            <div class="md:flex items-center justify-between gap-12 text-black">
+            <div class="hidden md:flex items-center justify-between gap-12 text-black">
                         <!-- No where to go yet -->
                     <a href="javascript:void(0)"  
                     class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Product</a>
@@ -31,16 +31,29 @@
                     <a href="javascript:void(0)" 
                     class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
             </div>
-            <div class="md:flex items-center gap-8 p-4">
-                    <button class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-800" id="mobile-menu-toggle">
+            <div class="hidden md:flex items-center gap-8 p-4">
+                    <button class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-800">
                     Login
                     </button>
-                    <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500" id="mobile-menu-toggle">
+                    <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">
                     Sign Up
                     </button>
             </div>
-            <button class=""></button>
-                <div class="md:flex items-center justify-between gap-12 text-black">
+
+            <!--Mobile Screen Version-->
+            <button class="md:hidden p-4" id="mobile-menu-toggle">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6" fill="none" xmlns="http://www.w3.org/2000/svg">  <!--hamburger-->
+                    <g clip-path="url(#clip0_429_11066)">
+                    <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_429_11066">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>  
+            </button>
+                <div class="absolute flex md:flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-4" id="mobile-menu">
                             <!-- No where to go yet -->
                     <a href="javascript:void(0)"  
                     class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Product</a>
@@ -50,6 +63,12 @@
                     class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Get Started</a>
                     <a href="javascript:void(0)" 
                     class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
+                        <button class="flex items-center px-4 py-2 text-sm font-normal text-black">
+                        Login
+                        </button>
+                        <button class="flex items-center px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">
+                        Sign Up
+                        </button>
                 </div>
         </div>
 
@@ -62,13 +81,13 @@
 
         
         <!--Component 2: Hero and Endorsements-->
-        <!--HERO-->
+        <!--HERO Section-->
         <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5">
-            <div class="flex flex-col justify-center col-span-1 text-center lg:text-start">
-                <h1 class="md-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">
+            <div class="flex flex-col justify-center col-span-1 text-center lg:text-start mx-4">
+                <h1 class="md-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900 py-4">
                     The Clever Place to Keep Your Cache
                 </h1>
-                <p class="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900">
+                <p class="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900 py-4">
                     Cache Bank is designed exclusively for software developers. We understand 
                     your financial needs are as unique as the code you write. Our services offer cutting-edge
                     financial solutions that help you take care of your cash.
@@ -150,10 +169,10 @@
 
     <script>
         document
-        .getElementById("mobile-menu-toggle")
-        .addEventListener("click", function() {
-            document.getElementById("mobile-toggle").classList.toggle("hidden")
-        });
+            .getElementById("mobile-menu-toggle")
+            .addEventListener("click", function() {
+                document.getElementById("mobile-menu").classList.toggle("hidden");
+            });
     </script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
