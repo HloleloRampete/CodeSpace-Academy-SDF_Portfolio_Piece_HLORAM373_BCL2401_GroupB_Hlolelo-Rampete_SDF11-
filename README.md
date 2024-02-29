@@ -19,3 +19,17 @@ The objective of this project is to create and design a responsive banking websi
 
 ## Conclusion
 The project was successful in achieving its objective of creating a responsive banking website for the Cache Bank. It provided valuable hands-on experience in HTML, CSS (Tailwind CSS), and JavaScript, while also highlighting areas for improvement, particularly in CSS Tailwind positioning and responsiveness. Moving forward, additional practice and refinement in these areas will further enhance proficiency and understanding.
+
+
+
+
+
+
+
+
+
+# SDF Presentation
+1. **Presentation Slide**s: https://docs.google.com/presentation/d/1eMfz7BKnZnK8_CXdWdemRCx-ByUPIlpn_YTjvf1-4NM/edit?usp=sharing
+2. **Loom Video**:
+
+
