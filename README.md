@@ -29,5 +29,7 @@ The project was successful in achieving its objective of creating a responsive b
 
 
 # SDF Presentation
+1. **Presentation Slide**s: https://docs.google.com/presentation/d/1eMfz7BKnZnK8_CXdWdemRCx-ByUPIlpn_YTjvf1-4NM/edit?usp=sharing
+2. **Loom Video**:
 
 
