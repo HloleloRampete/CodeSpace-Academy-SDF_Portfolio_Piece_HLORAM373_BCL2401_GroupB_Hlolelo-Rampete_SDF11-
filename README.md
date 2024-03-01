@@ -1,6 +1,14 @@
 # HLORAM373_BCL2401_GroupB01_Hlolelo-Rampete_SDF11
 # Responsive Banking Website Documentation
 
+# SDF Presentation
+1. **Presentation Slide**s: https://docs.google.com/presentation/d/1eMfz7BKnZnK8_CXdWdemRCx-ByUPIlpn_YTjvf1-4NM/edit?usp=sharing
+2. **Loom Video**: https://www.loom.com/share/1f9cdb71b0e743d5854bc4d631c365e4?sid=1f3a0a9e-3607-4bb6-a081-c6ce0f7d850f
+
+
+
+
+
 ## Objective
 The objective of this project is to create and design a responsive banking website suitable and catering to developers. The website is built using HTML, CSS (with Tailwind CSS), and JavaScript. The primary goal is to provide a practical learning experience for beginner developers while focusing on creating a visaully appealing and functional banking website.
 
@@ -28,8 +36,5 @@ The project was successful in achieving its objective of creating a responsive b
 
 
 
-# SDF Presentation
-1. **Presentation Slide**s: https://docs.google.com/presentation/d/1eMfz7BKnZnK8_CXdWdemRCx-ByUPIlpn_YTjvf1-4NM/edit?usp=sharing
-2. **Loom Video**:
 
 
